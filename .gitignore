@@ -1,0 +1,8 @@
+# Environment variables - never commit these
+.env
+
+# Database - contains guild data, keep it local
+*.db
+
+# Dependencies - too large, restored via npm install
+node_modules/
